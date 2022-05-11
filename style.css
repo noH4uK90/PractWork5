@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+    background: linear-gradient(#9d50bb, #6e48aa);
+}
+
+.title {
+    color: lightblue;
+}
+
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+h1 {
+    text-shadow: 18px -1px 3px rgba(150, 150, 150, 0.79);
+}
+
+.invisibility {
+    visibility: hidden;
+}
+
+body {
+    background: linear-gradient(#9d50bb, #6e48aa);
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 100px;
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    margin-right: 5px;
+    max-width: 200px;
+    min-width: 150px;
+}
+
+.main {
+    text-align: justify;
+    height: calc(100vh - 140px);
+}
+
+.footer {
+    min-height: 50px;
+}
